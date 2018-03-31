@@ -1,0 +1,18 @@
+@import 'normalize.css';
+
+@media screen and (max-width: 800px) {
+
+    body {
+        width: 480px;
+        margin: 0px auto;
+    }
+
+}
+@media screen and (min-width: 801px) {
+
+    body {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+}

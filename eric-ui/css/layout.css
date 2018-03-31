@@ -1,0 +1,104 @@
+@import 'base.css';
+
+
+@media screen and (max-width: 800px) {
+    .main-nav {
+        clear: both;
+        background: lightgray;
+        border: 1px solid black;
+        border-bottom: 0px;
+        width: 99.58333333333333%;
+        height: 75px;
+    }
+    #section-a {
+        background: lightgray;
+        border: 1px solid black;
+        border-bottom: 0px;
+        width: 99.58333333333333%;
+        height: 150px; 
+    }
+    .article {
+        background: lightgray;
+        border: 1px solid black;
+        border-bottom: 0px;
+        width: 99.58333333333333%;
+        height: 125px; 
+    }
+    .quad:first-child, .quad:nth-child(3) {
+        border: 1px solid black;
+        border-bottom: 0px;
+    }
+    .quad:nth-child(2), .quad:nth-child(4) {
+        border: 1px solid black;
+        border-left: 0px;
+        border-bottom: 0px;
+    }
+    .quad{
+        float: left;
+        background: lightgray;
+        width: 49.6875%;
+        height: 250px;  
+    }
+    .bottom-container {
+        clear: left;
+        background: lightgray;
+        border: 1px solid black;
+        width: 99.58333333333333%;
+        height: 80px;
+    }
+    p {
+        position: relative;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%)
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .main-nav {
+        background: lightgray;
+        width: 99.79166666666667%;
+        border: 1px solid black;
+        border-bottom: 0px;
+        height: 99px;
+    }
+    #section-a {
+        float: left;
+        background: lightgray;
+        border: 1px solid black;
+        width: 20.625%;
+        height: 598px; 
+    }
+    .article {
+        float: left;
+        background: lightgray;
+        border: 1px solid black;
+        border-bottom: 0px;
+        border-left: 0px;
+        width: 39.479166666666665%;
+        height: 199px; 
+    }
+    .quad{
+        float: left;
+        background: lightgray;
+        border: 1px solid black;
+        border-bottom: 0px;
+        border-left: 0px;
+        width:  19.6875%;
+        height: 249px;  
+    }
+    .bottom-container {
+        float: left;
+        background: lightgray;
+        border: 1px solid black;
+        border-left: 0px;
+        width:  79.0625%;
+        height: 148px;
+    }
+    p {
+        position: relative;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%);
+    }
+}
