@@ -15,7 +15,7 @@ header{
 }
 
 .flex-container1 { 
-    height: 400px;
+    height: 150px;
     display: flex;  
     flex-direction: column;  
     flex-wrap: wrap; 
@@ -23,26 +23,23 @@ header{
  }
  .flex-container1 > div.one {
     width: 100%;
-    height: 37%;
+    height: 100%;
     border: solid red 1px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
   }
 
-
-  .flex-container1 > div.two {
+ .flex-container12 > div{
     width: 100%;
     height: 30.7%;
     border: solid red 1px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-  }
-
+ }
 
  .flex-container2 { 
-    /* height: 500px; */
     display: flex;
     flex-direction: row;  
     flex-wrap: wrap; 
@@ -80,10 +77,12 @@ header{
     border: solid red 1px;
     text-align: center;
     height: 100px;
+    line-height: 75px;
 }
 
 .flex-container1 div.one {
 border: solid red 1px;
+line-height: 500px;
 float: left;
 text-align: center;
 width: 20%;
@@ -101,17 +100,20 @@ height: 600px;
     text-align: center;
     width: 80%;
     height: 200px;
+    line-height: 200px;
     
 }
 
 .flex-container2 {
     display: flex;
 }
+
 .flex-container2 div{
     border: solid red 1px;
     text-align: center;
     width: 80%;
     height: 200px;
+    line-height: 200px;
 }
 
 
@@ -119,8 +121,9 @@ footer{
     border: solid red 1px;
     text-align: center;
     float: left;
-    width: 79.65%;
+    width: 79%;
     height: 197px;
+    line-height: 200px;
 }
 
 
