@@ -1,0 +1,65 @@
+header {
+  border: 2px solid black;
+  padding-bottom: 5px;
+  width: 100%;
+
+}
+footer {
+  left: 0;
+  bottom: 0;
+  width: 75%;
+  position: fixed;
+
+}
+.sidebar {
+  border: 2px solid black;
+  height: 100%;
+  padding:100px;
+  position: absolute;
+  margin: 1px;
+  display: block;
+  float: left;
+
+}
+.c {
+  border: 2px solid black;
+  float: right;
+  width: 50%;
+}
+.d {
+  border: 2px solid black;
+  float: right;
+  width: 50%;
+  display: flex;
+}
+.pair {
+  display: flex;
+  flex-direction: row;
+}
+.e {
+  border: 2px solid black;
+  float: right;
+  width: 25%;
+}
+.f {
+  border: 2px solid black;
+  float: right;
+  width: 25%;
+}
+.g {
+  border: 2px solid black;
+  float: right;
+  width: 25%;
+}
+.h {
+  border: 2px solid black;
+  float: right;
+  width: 25%;
+}
+.quad {
+  display: flex;
+}
+.i {
+  border: 2px solid black;
+
+}
