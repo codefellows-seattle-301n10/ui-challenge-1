@@ -1,0 +1,77 @@
+@media only screen and (max-width:768px ) {
+   
+    #box {
+        width: 480px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    #desktop {
+        display:none;
+        padding-bottom: 25px;
+        border: 1px solid black;
+    }
+
+    .boxA {
+        width: 480px;
+        height: 75px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    .boxB {
+        width: 480px;
+        height: 150px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    .boxC {
+        width: 480px;
+        height: 125px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    .boxD {
+        width: 480px;
+        height: 125px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    .boxE {
+        width: 240px;
+        height: 250px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    .boxF {
+        width: 240px;
+        height: 250px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    .boxG {
+        width: 240px;
+        height: 250px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    .boxH {
+        width: 240px;
+        height: 250px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    .boxI {
+        width: 480px;
+        height: 80px;
+        float: left; 
+        border: 1px solid black;
+    }
+}
